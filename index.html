@@ -67,9 +67,12 @@
             $('#rememberMe').click(function(){
                 if($(this).is(':checked')){
                     document.cookie = "rememberMe=true;";
+                    document.cookie = "products=;";
+                    alert('Remembered');
                 }else{
                     document.cookie = "rememberMe=false;";
                     document.cookie = "products=;";
+                    alert('Forgotten');
                 }
             });
             
