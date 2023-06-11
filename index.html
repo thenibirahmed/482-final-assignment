@@ -63,9 +63,6 @@
     <script>
         $(document).ready(function(){
 
-            document.cookie = "remember_me=false;";
-            document.cookie = "products=;";
-
             $('#rememberMe').click(function(){
                 if($(this).is(':checked')){
                     document.cookie = "rememberMe=true;";
@@ -73,7 +70,6 @@
                     document.cookie = "rememberMe=false;";
                     document.cookie = "products=;";
                 }
-
             });
             
             if(getCookie('rememberMe') == 'true'){
