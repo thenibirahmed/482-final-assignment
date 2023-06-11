@@ -1,2 +1,1 @@
-- Please run in server
-- If add to cart does not work please try clicking the remember me button twice or thrice only for the first time
+- Please run in server to get the cookie working
